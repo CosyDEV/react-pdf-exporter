@@ -1,0 +1,51 @@
+.pdf_container {
+  position: fixed;
+  left: -5000px;
+}
+
+.pdf_button_container {
+  z-index: 1000002;
+  width: fit-content;
+  background-color: rgba(100, 100, 100, 0.2);
+  border-radius: 4px;
+  text-align: center;
+  padding: 5px;
+}
+
+.pdf_button {
+  margin: 4px !important;
+  background-color: #6200ee;
+  color: white;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  border: none;
+  padding: 4px 12px 4px 12px;
+  border-radius: 4px;
+  position: relative;
+  height: 32px;
+  width: 38px;
+}
+
+.pdf_button:hover {
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !important;
+  background-color: #7c21fc;
+  transition: 0.1s;
+}
+
+.pdf_button:focus {
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !important;
+}
+
+.pdf_bubble_indicator {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 11px;
+  font-weight: 700;
+}
