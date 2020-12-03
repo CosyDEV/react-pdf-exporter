@@ -1,5 +1,5 @@
 {
-  "name": "react-pdf-module",
+  "name": "@cosydev/react-pdf-exporter",
   "version": "1.0.0",
   "description": "",
   "main": "dist/bundle.js",
@@ -48,5 +48,13 @@
     "webpack": "^3.10.0",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^2.11.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CosyDEV/react-pdf-exporter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CosyDEV/react-pdf-exporter/issues"
+  },
+  "homepage": "https://github.com/CosyDEV/react-pdf-exporter#readme"
 }
